@@ -41,7 +41,15 @@ Son funciones que acceden a las variables que fueron creadas en la función
 soloNumeros(longitud(numberCard));  //soloNumeros accede a las variables usadas en longitud (input).
 ```
 ## Scope
-
+Es el alcance que tiene una variable en una función.
+```js
+var $inputCard = $('#card-number'); 
+var $inputMonth = $('.input-month'); 
+var $inputYear = $('.input-year');
+var $buttonNext = $('#next'); 
+var regexOnlyNumbers = /^[0-9]+$/;
+var labelErrorOrSuccessMessages = $('label[for="card-number"]');  // En este caso se declaró las variables para usarse globalmente dentro del evento ready
+```
 ## Contexto de ejecución
 
 ## Stack execution

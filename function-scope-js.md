@@ -22,7 +22,7 @@ Son funciones que sirven de parámetro de otra función.
 ```js
 var creditCardNumber = soloNumeros(longitud(numberCard));   //La función longitud se convierte en parámetro de soloNumeros
 ```
-## Expresions
+## Expressions
 Son funciones declaradas en una expresión.
 ```js
 var creditCardNumber = soloNumeros(longitud(numberCard));  //La variable creditCardNumber toma el valor de las funciones
@@ -50,8 +50,6 @@ var $buttonNext = $('#next');
 var regexOnlyNumbers = /^[0-9]+$/;
 var labelErrorOrSuccessMessages = $('label[for="card-number"]');  // En este caso se declaró las variables para usarse globalmente dentro del evento ready
 ```
-## Contexto de ejecución
 
-## Stack execution
 
-## Event queue
+
